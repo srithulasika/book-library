@@ -47,6 +47,11 @@ body{
     font-size:12px;
 }
 
+
+.done{
+    text-decoration:line-through;
+}
+
 .add-btn:hover{
     background-color:rgb(220, 10, 10);
 }
