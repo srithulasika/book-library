@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:15px;
+    font-size:15px;  
+}
+
+
+.title{
+    font-size:24px;
+    color:navy;
+    text-align:center;
+    margin:10px;
+    margin-bottom: 20px;;
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px; 
+}
+
+.reading{
+    color:red;
+}
+
+.finished{
+    color:blue;
+}
+
+.wishlist{
+    color:blueviolet;
+}
+
+.add-btn{
+    background-color:brown;
+    color:white;
+    border-radius:8px;
+    border:1px solid gray;
+    padding: 10px 15px;
+    font-size:12px;
+}
+
+.add-btn:hover{
+    background-color:rgb(220, 10, 10);
+}
+
+@media ( max-width:600px){
+    .content{
+
+        flex-direction:column;
+    }
+}
