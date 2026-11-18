@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Book Library</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Book Library</h1>
+    </header>
+    <main class="content">
+        <form class="myform">
+            <label for="book">Book Name</label>
+            <input type="text" id="book" name="book" required>
+            <label for="pages">Pages</label>
+            <input type="number" id="pages" name="pages" min="10" max="1500">
+            <label for="status">Status</label>
+            <select id="status" name="status">
+                <option value="">Select a Status</option>
+                <option value="reading" class="reading">Reading</option>
+                <option value="finished" class="finished">Finished</option>
+                <option value="wishlist" class="wishlist">Wishlist</option>
+            </select>
+            <button  class="add-btn" type="submit">Add Button</button>
+        </form>
+        <ul id="listbook"></ul>
+        <p id="error"></p>
+        <p id="stat"></p>
+    </main>
+</body>
+</html>
